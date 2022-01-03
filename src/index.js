@@ -10,7 +10,7 @@ const CurrentFullYear = date.getFullYear();
 
 ReactDOM.render(
   <div>
-    <h1>{ToDoTitle}</h1>
+    <h1 style={{color:'red'}}>{ToDoTitle}</h1>
     <h2>{ToDoDesc}</h2>
     <h2>{Today + "/" + month + "/" + CurrentFullYear}</h2>
   </div>,
