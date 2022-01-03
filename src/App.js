@@ -7,9 +7,11 @@ function App() {
 
     let items = [];
 
-    for (let x = 0; x < Data.length; x++) {
-        items.push(<Card Title={Data[x].title} Desc={Data[x].desc} />)
-    }
+    // for (let x = 0; x < Data.length; x++) {
+    //     items.push(<Card Title={Data[x].title} Desc={Data[x].desc} />)
+    // }
+
+    items = Data.map((items) => <Card Title={items.title} Desc={items.desc} /> );
 
    return <div>
             {items}
