@@ -4,8 +4,15 @@ import  './index.css';
 import Data from './data.json';
 
 function App() {
+
+    let items = [];
+
+    for (let x = 0; x < Data.length; x++) {
+        items.push(<Card Title={Data[x].title} Desc={Data[x].desc} />)
+    }
+
    return <div>
-            <Card Title={Data[0].title} Desc={Data[0].desc} />
+            {items}
             <Card />
             <Card />
          </div>
