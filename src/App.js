@@ -1,22 +1,12 @@
 import React from 'react';
-import Card from './Components/Card';
 import  './index.css';
 import Data from './data.json';
+import Card2 from './Components/Card2';
 
 function App() {
 
-    let items = [];
-
-    // for (let x = 0; x < Data.length; x++) {
-    //     items.push(<Card Title={Data[x].title} Desc={Data[x].desc} />)
-    // }
-
-    items = Data.map((item, index) => <Card key={index} Title={item.title} Desc={item.desc} /> );
-
    return <div>
-            {items}
-            <Card />
-            <Card />
+            <Card2 name='class component here' />
          </div>
 }
 
