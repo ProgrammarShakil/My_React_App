@@ -4,10 +4,10 @@ const fullDate = new Date();
 const date = fullDate.getDate() + "/" + fullDate.getMonth() + "/"+ fullDate.getFullYear();
 
 
-function Card(){
+function Card(props){
   return     <div  className="card-style">
-                <h3>{todoTitle}</h3>
-                <p>{todoDesc}</p>
+                <h3>{props.Title}</h3>
+                <p>{props.Desc}</p>
                 <p>{date}</p>
              </div>
 }
