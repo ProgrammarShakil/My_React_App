@@ -11,7 +11,7 @@ function App() {
     //     items.push(<Card Title={Data[x].title} Desc={Data[x].desc} />)
     // }
 
-    items = Data.map((items) => <Card Title={items.title} Desc={items.desc} /> );
+    items = Data.map((item, index) => <Card key={index} Title={item.title} Desc={item.desc} /> );
 
    return <div>
             {items}
