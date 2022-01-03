@@ -1,14 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Card from './Components/Card';
+import App from './App';
 
 ReactDOM.render(
-  <div>
-    <Card />
-    <Card />
-    <Card />
-  </div>,
-  document.getElementById('root')
+   <App />,
+    document.getElementById('root')
 );
 
