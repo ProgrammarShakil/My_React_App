@@ -1,3 +1,11 @@
-.headingStyle{
-    background: red;
+.card-style{
+    border-radius: 5px;
+    transition: .4s;
+    background-color : rgb(56, 26, 192);
+    width : 350px;
+    padding: 10px;
+    color: #fff;
+}
+.card-style:hover{
+    box-shadow: 2px 4px 4px rgb(180, 176, 176);
 }
