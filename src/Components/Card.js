@@ -5,7 +5,9 @@ const date = fullDate.getDate() + "/" + fullDate.getMonth() + "/"+ fullDate.getF
 
 
 function Card(props){
+
   const {Title,Desc} = props;
+  
   return     <div  className="card-style">
                 <h3>{Title}</h3>
                 <p>{Desc}</p>
