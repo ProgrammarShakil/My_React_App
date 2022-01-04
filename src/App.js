@@ -3,11 +3,12 @@ import  './index.css';
 import Data from './data.json';
 import Card2 from './Components/Card2';
 import STATE from './Components/STATE';
+import RenderIndex from './Components/renderIndex';
 
 function App() {
 
    return <div>
-            <STATE />
+            <RenderIndex />
          </div>
 }
 
